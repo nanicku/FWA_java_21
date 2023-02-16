@@ -11,7 +11,7 @@ public class IndexServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        resp.sendRedirect(req.getContextPath() + "/hello");
+        resp.sendRedirect(req.getContextPath() + "/signIn");
     }
 }
 
